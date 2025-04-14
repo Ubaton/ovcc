@@ -1,38 +1,117 @@
-'use client';
+"use client";
+import { BackgroundBeamsWithCollision } from "../ui/background-beams-with-collision";
+import {
+  Navbar,
+  NavBody,
+  NavItems,
+  MobileNav,
+  NavbarLogo,
+  NavbarButton,
+  MobileNavHeader,
+  MobileNavToggle,
+  MobileNavMenu,
+} from "../ui/resizable-navbar";
+import { useState } from "react";
 
-import Image from 'next/image';
-import Link from 'next/link';
+export function ResizableNavbar() {
+  const navItems = [
+    {
+      name: "Features",
+      link: "#features",
+    },
+    {
+      name: "Pricing",
+      link: "#pricing",
+    },
+    {
+      name: "Contact",
+      link: "#contact",
+    },
+  ];
 
-interface NavbarProps {
-  logoSrc: string;
-  logoAlt?: string;
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  return (
+    <div className="relative w-full">
+      <Navbar>
+        {/* Desktop Navigation */}
+        <NavBody>
+          <NavbarLogo />
+          <NavItems items={navItems} />
+          <div className="flex items-center gap-4">
+            <NavbarButton variant="secondary">Login</NavbarButton>
+            <NavbarButton variant="primary">Book a call</NavbarButton>
+          </div>
+        </NavBody>
+
+        {/* Mobile Navigation */}
+        <MobileNav>
+          <MobileNavHeader>
+            <NavbarLogo />
+            <MobileNavToggle
+              isOpen={isMobileMenuOpen}
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            />
+          </MobileNavHeader>
+
+          <MobileNavMenu
+            isOpen={isMobileMenuOpen}
+            onClose={() => setIsMobileMenuOpen(false)}
+          >
+            {navItems.map((item, idx) => (
+              <a
+                key={`mobile-link-${idx}`}
+                href={item.link}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="relative text-neutral-600 dark:text-neutral-300"
+              >
+                <span className="block">{item.name}</span>
+              </a>
+            ))}
+            <div className="flex w-full flex-col gap-4">
+              <NavbarButton
+                onClick={() => setIsMobileMenuOpen(false)}
+                variant="primary"
+                className="w-full"
+              >
+                Login
+              </NavbarButton>
+              <NavbarButton
+                onClick={() => setIsMobileMenuOpen(false)}
+                variant="primary"
+                className="w-full"
+              >
+                Book a call
+              </NavbarButton>
+            </div>
+          </MobileNavMenu>
+        </MobileNav>
+      </Navbar>
+      <DummyContent />
+
+      {/* Navbar */}
+    </div>
+  );
 }
 
-const Navbar: React.FC<NavbarProps> = ({ logoSrc, logoAlt = 'Logo' }) => {
+const DummyContent = () => {
   return (
-    <nav className="flex items-center justify-between px-8 py-4 border-b border-gray-100">
-      <Link href="/" className="flex items-center space-x-2">
-        <Image src={logoSrc} alt={logoAlt} width={80} height={40} />
-      </Link>
-
-      <div className="hidden md:flex items-center space-x-6 text-sm font-medium text-teal-800">
-        <Link href="/about">About</Link>
-        <Link href="/blog">Blog</Link>
-        <Link href="/changelog">Changelog</Link>
-        <Link href="/contact">Contact</Link>
-        <Link href="/coming-soon">Coming soon</Link>
-      </div>
-
-      <div>
-        <Link
-          href="/get-started"
-          className="border border-teal-800 px-6 py-2 rounded-full text-teal-800 font-medium hover:bg-teal-50 transition"
-        >
-          Get Started
-        </Link>
-      </div>
-    </nav>
+    <div className="container mx-auto p-8 pt-24">
+    <BackgroundBeamsWithCollision>
+        <h2 className="text-2xl md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight relative z-20">
+          Welcome to <span className="text-sky-600"> OVC<sup>2</sup> </span> —{" "}
+          <span className="block">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-sky-400 to-green-500">
+              Where education evolves,
+            </span>
+          </span>
+          <span className="block">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-sky-400 to-green-500">
+              and futures begin.
+            </span>
+          </span>
+        </h2>    
+    </BackgroundBeamsWithCollision>
+  </div>
   );
 };
-
-export default Navbar;
