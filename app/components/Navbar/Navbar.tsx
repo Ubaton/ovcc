@@ -6,7 +6,6 @@ import {
   NavItems,
   MobileNav,
   NavbarLogo,
-  NavbarButton,
   MobileNavHeader,
   MobileNavToggle,
   MobileNavMenu,
@@ -16,12 +15,15 @@ import { useState } from "react";
 export function ResizableNavbar() {
   const navItems = [
     {
-      name: "Features",
-      link: "#features",
+      name: "About",
+      link: "#about",
     },
     {
-      name: "Pricing",
-      link: "#pricing",
+      name: "Features",
+      link: "#features",
+    },    {
+      name: "FAQ",
+      link: "#faq",
     },
     {
       name: "Contact",
@@ -38,10 +40,6 @@ export function ResizableNavbar() {
         <NavBody>
           <NavbarLogo />
           <NavItems items={navItems} />
-          <div className="flex items-center gap-4">
-            <NavbarButton variant="secondary">Login</NavbarButton>
-            <NavbarButton variant="primary">Book a call</NavbarButton>
-          </div>
         </NavBody>
 
         {/* Mobile Navigation */}
@@ -68,22 +66,6 @@ export function ResizableNavbar() {
                 <span className="block">{item.name}</span>
               </a>
             ))}
-            <div className="flex w-full flex-col gap-4">
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
-              >
-                Login
-              </NavbarButton>
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
-              >
-                Book a call
-              </NavbarButton>
-            </div>
           </MobileNavMenu>
         </MobileNav>
       </Navbar>
@@ -97,21 +79,21 @@ export function ResizableNavbar() {
 const DummyContent = () => {
   return (
     <div className="container mx-auto p-8 pt-24">
-    <BackgroundBeamsWithCollision>
-        <h2 className="text-2xl md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight relative z-20">
-          Welcome to <span className="text-sky-600"> OVC<sup>2</sup> </span> —{" "}
-          <span className="block">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-sky-400 to-green-500">
-              Where education evolves,
+      <BackgroundBeamsWithCollision>
+          <h2 className="text-2xl md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight relative z-20">
+            Welcome to <span className="text-sky-600"> OVC<sup>2</sup> </span> —{" "}
+            <span className="block">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-sky-400 to-green-500">
+                Where education evolves,
+              </span>
             </span>
-          </span>
-          <span className="block">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-sky-400 to-green-500">
-              and futures begin.
+            <span className="block">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-sky-400 to-green-500">
+                and futures begin.
+              </span>
             </span>
-          </span>
-        </h2>    
-    </BackgroundBeamsWithCollision>
-  </div>
+          </h2>    
+      </BackgroundBeamsWithCollision>
+    </div>
   );
 };
