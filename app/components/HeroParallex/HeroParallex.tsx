@@ -8,95 +8,95 @@ export function HeroParallaxDemo() {
 export const products = [
   {
     title: "Moonbeam",
-    link: "https://gomoonbeam.com", //Replace links with OVCC link to the home page
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex1.png",
   },
   {
     title: "Cursor",
-    link: "https://cursor.so",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex2.png",
   },
   {
     title: "Rogue",
-    link: "https://userogue.com",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex3.png",
   },
 
   {
     title: "Editorially",
-    link: "https://editorially.org",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex4.png",
   },
   {
     title: "Editrix AI",
-    link: "https://editrix.ai",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex5.png",
   },
   {
     title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex6.png",
   },
 
   {
     title: "Algochurn",
-    link: "https://algochurn.com",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex5.png",
   },
   {
     title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex4.png",
   },
   {
     title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex3.png",
   },
   {
     title: "SmartBridge",
-    link: "https://smartbridgetech.com",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex2.png",
   },
   {
     title: "Renderwork Studio",
-    link: "https://renderwork.studio",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex1.png",
   },
 
   {
     title: "Creme Digital",
-    link: "https://cremedigital.com",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex6.png",
   },
   {
     title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex5.png",
   },
   {
     title: "Invoker Labs",
-    link: "https://invoker.lol",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex4.png",
   },
   {
     title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+    link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/ovc2logo.jpg",
+      "/assets/parallex3.png",
   },
 ];
