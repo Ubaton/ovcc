@@ -10,7 +10,13 @@ const content = [
       "We offer a full suite digital and in-person services designed to uplift education and prepare learners for life after high school. Our services include:",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Collaborative Editing (replace with Image)
+        <Image
+          src="/assets/service.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
@@ -21,7 +27,7 @@ const content = [
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
         <Image
-          src="/linear.webp"
+          src="/assets/Learning.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -36,26 +42,38 @@ const content = [
       "Accessible exam practice tools to help you prepare for your exams.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] text-white">
-        Version control
+        <Image
+          src="/assets/practice.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
   {
     title: "Career Simulation Tool",
     description:
-      "Interactive mobile tool that matches learners’ APS scores with career pathways and university requirements.",
+      "Interactive mobile tool that matches learners APS scores with career pathways and university requirements.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Running out of content
+        <Image
+          src="/assets/simulate.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },  {
-    title: "Parenta Profile Access",
+    title: "Parental Profile Access",
     description:
       "Dedicated space for parents to monitor academic performance, attendance, and progress in real time.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Running out of content
+        Parental Access
       </div>
     ),
   },
@@ -65,7 +83,13 @@ const content = [
       "Practical and career-aligned learning for skills that matter beyond the classroom.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Running out of content
+        <Image
+          src="/assets/online.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
@@ -75,7 +99,13 @@ const content = [
       "Digital tools for streamlining student data and academic management, specially tailored for high schools and higher education platforms.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Running out of content
+        <Image
+          src="/assets/support.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
