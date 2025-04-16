@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ResizableNavbar } from "./components/Navbar/Navbar";
 import WelcomeMessage from "./components/WelcomeMessage/WelcomeMessage";
 import { HeroParallaxDemo } from "./components/HeroParallex/HeroParallex";
