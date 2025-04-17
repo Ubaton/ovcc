@@ -14,10 +14,13 @@ import { useState } from "react";
 
 export function ResizableNavbar() {
   const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Features", link: "#features" },
-    { name: "FAQ", link: "#faq" },
-    { name: "Contact", link: "#contact" },
+    { name: "About", link: "/about" },
+    { name: "Services", link: "/services" },
+    { name: "Learners", link: "/learners" },
+    { name: "Parents", link: "/parents" },
+    { name: "Investors", link: "/investors" },
+    { name: "Contact", link: "/contact" },
+
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -66,10 +69,10 @@ export function ResizableNavbar() {
 
 const DummyContent = () => {
   return (
-    <div className="container mx-auto p-8 pt-24">
+    <div className="container mx-auto p-8 pt-24 relative">
       <BackgroundBeamsWithCollision>
         <h2 className="text-2xl md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight relative z-20">
-          Welcome to <span className="text-sky-600">OVC<sup>2</sup></span> —{" "}
+          <span className="text-sky-600">OVC<sup>2</sup></span>{" "}
           <span className="block">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-sky-400 to-green-500">
               Where education evolves,
