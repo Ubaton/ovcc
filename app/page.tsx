@@ -17,6 +17,11 @@ export default function Home() {
       <HeroParallaxDemo />
 
       {/* Scroll Animation Section */}
+      <div className="col-span-1 md:col-span-3 m-10">
+          <h2 className="text-2xl font-bold text-center text-neutral-600 ">
+            Our Services
+          </h2>
+      </div>
       <BentoGridDemo />
 
       {/* Footer Section */}
