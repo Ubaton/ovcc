@@ -5,7 +5,7 @@ const footerLinks = [
     title: "Company",
     links: [
       { name: "About Us", href: "/about" },
-      { name: "Our Story", href: "/our-story" },
+      // { name: "Our Story", href: "/our-story" },
       { name: "Careers", href: "/careers" },
     ],
   },
