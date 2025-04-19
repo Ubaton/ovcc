@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
-        "Parallex"
+        "Parallex",
+        "tabler"
+    ],
+    "cSpell.ignoreWords": [
+        "POPI",
+        "bento",
+        "ovcbackground"
     ]
 }

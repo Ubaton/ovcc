@@ -1,7 +1,7 @@
 import { ResizableNavbar } from "./components/Navbar/Navbar";
 import WelcomeMessage from "./components/WelcomeMessage/WelcomeMessage";
 import { HeroParallaxDemo } from "./components/HeroParallex/HeroParallex";
-import { StickyScrollRevealDemo } from "./components/StickyRoll/StickyRoll";
+import { BentoGridDemo } from "./components/Bento/BentoGrid";
 import Footer from "./components/Footer/Footer";
 
 export default function Home() {
@@ -17,7 +17,12 @@ export default function Home() {
       <HeroParallaxDemo />
 
       {/* Scroll Animation Section */}
-      <StickyScrollRevealDemo />
+      <div className="col-span-1 md:col-span-3 m-10">
+          <h2 className="text-2xl font-bold text-center text-neutral-600 ">
+            Our Services
+          </h2>
+      </div>
+      <BentoGridDemo />
 
       {/* Footer Section */}
       <Footer/>

@@ -12,8 +12,9 @@ const WelcomeMessage = () => {
           Your Gateway to Academic Success
         </h1>
         <p className="text-lg leading-relaxed">
-          We are a forward-thinking digital education platform dedicated to helping high school learners reach their full academic and career potential.
-          Whether online or in person, OVCC offers powerful tools, personalized support, and career-driven insights to guide students from the classroom to their future.
+          OVCC is a forward-thinking digital education platform empowering high school learners to unlock their full academic and career potential.
+          Whether online or in person, we provide powerful tools, personalized tutoring, and career-driven insights — guiding students every step
+          of the way from the classroom to their future.
         </p>
 
         <div className="text-sm font-semibold text-blue-600 dark:text-blue-400 p-4">
@@ -21,11 +22,11 @@ const WelcomeMessage = () => {
         </div>
         
         <div className="text-md text-neutral-500 dark:text-neutral-400 space-x-2">
-          <span>#OVCC</span>
+          <span>Learn smarter.</span>
           <span>|</span>
-          <span>#SmartLearning</span>
+          <span>Dream bigger.</span>
           <span>|</span>
-          <span>#FutureReady</span>
+          <span>Succeed boldly.</span>
         </div>
       </div>
     </section>
