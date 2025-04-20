@@ -6,6 +6,7 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
+import Image from "next/image";
 
 export function BentoGridDemo() {
   return (
@@ -29,9 +30,11 @@ const items = [
     description: "Daily subject-specific classes by qualififed tutors, available in-person or virtually.",
     header: (
       <div className="w-full h-40 md:h-full relative overflow-hidden rounded-xl">
-        <img
+        <Image
           src="/assets/online.jpg"
           alt="Tutoring session"
+          width={100}
+          height={100}
           className="w-full h-full object-cover"
         />
       </div>
