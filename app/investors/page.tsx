@@ -10,6 +10,7 @@ import {
   ClipboardIcon,
   ArrowTrendingUpIcon,
 } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 const sections = [
   {
@@ -121,7 +122,7 @@ export default function Deck() {
         {sections.map(({ id, title, points, icon: Icon }) => (
           <motion.div
             key={id}
-            className={`rounded-xl p-8 md:p-12 space-y-6 shadow-sm`}
+            className={"rounded-xl p-8 md:p-12 space-y-6 shadow-sm"}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -154,19 +155,19 @@ export default function Deck() {
         </h3>
         <p className="text-gray-600">Download our investor pack or reach out for a conversation.</p>
         <div className="flex justify-center gap-4">
-          <a
+          <Link
             href="/OVCC_Investor_Deck.pdf"
             download
             className="bg-mirage text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition"
           >
             Download Deck
-          </a>
-          <a
+          </Link>
+          <Link
             href="/#contact"
             className="border border-mirage text-mirage px-6 py-3 rounded-lg font-medium hover:bg-mirage hover:text-white transition"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </motion.div>
     </section>
