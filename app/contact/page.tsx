@@ -13,10 +13,10 @@ export default function page() {
       <div className="max-w-5xl mx-auto space-y-16">
         {/* Header */}
         <div className="text-center space-y-4">
-          <h2 className="text-4xl font-bold">Let’s Connect</h2>
+          <h2 className="text-4xl font-bold">Let&apos;s Connect</h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Whether you're a school, investor, or parent — we’d love to hear from you.
-            Drop us a message and we’ll get back shortly.
+            Whether you're a school, investor, or parent — we&apos;d love to hear from you.
+            Drop us a message and we&apos;ll get back shortly.
           </p>
         </div>
 
