@@ -50,7 +50,8 @@ export function ResizableNavbar() {
           >
             {navItems.map((item, idx) => (
               <a
-                key={`mobile-link-${idx}`}
+                key={`mobile-link-${// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+                  idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block text-neutral-600 dark:text-neutral-300"
