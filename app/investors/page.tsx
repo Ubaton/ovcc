@@ -136,6 +136,7 @@ export default function Deck() {
             </div>
             <ul className="list-disc list-inside text-gray-700 space-y-2 ml-2">
               {points.map((point, i) => (
+                // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
                 <li key={i}>{point}</li>
               ))}
             </ul>
