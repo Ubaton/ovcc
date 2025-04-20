@@ -15,7 +15,7 @@ export default function page() {
         <div className="text-center space-y-4">
           <h2 className="text-4xl font-bold">Let&apos;s Connect</h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Whether you're a school, investor, or parent — we&apos;d love to hear from you.
+            Whether you&apos;re a school, investor, or parent — we&apos;d love to hear from you.
             Drop us a message and we&apos;ll get back shortly.
           </p>
         </div>
