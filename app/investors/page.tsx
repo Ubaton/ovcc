@@ -113,7 +113,7 @@ export default function Deck() {
           Invest in the Future of Learning
         </h1>
         <p className="text-gray-600 text-lg">
-          OVCC is building Africa’s smartest learning ecosystem — where data meets guidance, and students become future-ready.
+          OVCC is building Africa&apos;s smartest learning ecosystem — where data meets guidance, and students become future-ready.
         </p>
       </motion.div>
 
