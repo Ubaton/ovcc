@@ -16,7 +16,7 @@ export default function page() {
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
             OVCC (Online Virtual Career Companion) was born from a simple idea: that every learner deserves a fair shot at success — not just in school, but in life.
             <br /><br />
-            Founded in 2019, we blend smart technology, real educators, and a deep understanding of Africa’s academic challenges to guide learners, empower parents, and support schools from the ground up.
+            Founded in 2019, we blend smart technology, real educators, and a deep understanding of Africa&apos;s academic challenges to guide learners, empower parents, and support schools from the ground up.
           </p>
         </div>
 
@@ -57,13 +57,13 @@ export default function page() {
           <h3 className="text-3xl font-bold">Our Story</h3>
           <div className="max-w-3xl mx-auto text-gray-600 text-lg space-y-4">
             <p>
-              We started as a small team with one big question: how can we help learners see what’s possible after school?
+              We started as a small team with one big question: how can we help learners see what&apos;s possible after school?
             </p>
             <p>
               Since 2019, OVCC has grown into a trusted digital companion — used in schools, homes, and communities to guide students from confusion to clarity.
             </p>
             <p>
-              Today, OVCC is more than a platform. It’s a movement built on hope, technology, and the belief that the future belongs to every student — if they’re shown the way.
+              Today, OVCC is more than a platform. It&apos;s a movement built on hope, technology, and the belief that the future belongs to every student — if they&apos;re shown the way.
             </p>
           </div>
         </div>
