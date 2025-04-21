@@ -7,6 +7,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 import Image from "next/image";
+import { BriefcaseBusiness, GraduationCap, Notebook, NotebookPen, NotebookPenIcon, ServerCog, Users } from "lucide-react";
 
 export function BentoGridDemo() {
   return (
@@ -40,7 +41,7 @@ const items = [
       </div>
     ),
     className: "md:col-span-2",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    icon: <Notebook className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Exam Practice Tools",
@@ -56,7 +57,7 @@ const items = [
       </div>
     ),
     className: "md:col-span-1",
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    icon: <NotebookPen className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Career Simulation Tool",
@@ -72,7 +73,7 @@ const items = [
       </div>
     ),
     className: "md:col-span-1",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    icon: <BriefcaseBusiness className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Parental Profile Access",
@@ -89,7 +90,7 @@ const items = [
       </div>
     ),
     className: "md:col-span-2",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    icon: <Users className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Administrative Support",
@@ -105,7 +106,7 @@ const items = [
       </div>
     ),
     className: "md:col-span-2",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    icon: <ServerCog className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Skills Development & Training",
@@ -121,6 +122,6 @@ const items = [
       </div>
     ),
     className: "md:col-span-1",
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    icon: <GraduationCap className="h-4 w-4 text-neutral-500" />,
   },
 ];
