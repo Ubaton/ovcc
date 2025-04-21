@@ -1,13 +1,7 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
-import {
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
-} from "@tabler/icons-react";
 import Image from "next/image";
-import { BriefcaseBusiness, GraduationCap, Notebook, NotebookPen, NotebookPenIcon, ServerCog, Users } from "lucide-react";
+import { BriefcaseBusiness, GraduationCap, Notebook, NotebookPen, ServerCog, Users } from "lucide-react";
 
 export function BentoGridDemo() {
   return (
