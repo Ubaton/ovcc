@@ -10,7 +10,7 @@ export const products = [
     title: "Moonbeam",
     link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/parallex1.png",
+      "/assets/parallax.png",
   },
   {
     title: "Cursor",
@@ -41,7 +41,7 @@ export const products = [
     title: "Pixel Perfect",
     link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/parallex6.png",
+      "/assets/parallax1.png",
   },
 
   {
@@ -54,7 +54,7 @@ export const products = [
     title: "Aceternity UI",
     link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/parallex4.png",
+      "/assets/parallax.png",
   },
   {
     title: "Tailwind Master Kit",
@@ -79,7 +79,7 @@ export const products = [
     title: "Creme Digital",
     link: "https://nextjs.org", //Replace links with OVCC link to the home page
     thumbnail:
-      "/assets/parallex6.png",
+      "/assets/parallax1.png",
   },
   {
     title: "Golden Bells Academy",
