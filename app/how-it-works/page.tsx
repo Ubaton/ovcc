@@ -10,6 +10,7 @@ import {
   FaSchool,
   FaChartLine,
 } from 'react-icons/fa';
+import { Button } from '../components/ui/button';
 
 const steps = [
   {
@@ -106,29 +107,29 @@ const page = () => {
         </div>
 
         {/* Floating CTA Button */}
-        <a
+        <Button
           href="/register"
-          className="fixed bottom-6 right-6 z-50 bg-mirage text-white px-5 py-3 rounded-full shadow-xl hover:bg-faded-jade transition duration-300"
+          className="fixed bottom-6 right-6 z-50 bg-white text-black px-5 py-3 rounded-full shadow-xl hover:bg-faded-jade transition duration-300"
         >
           Get Started 🚀
-        </a>
+        </Button>
       </section>
 
       {/* Gradient Exit Divider */}
-      <div className="h-24 bg-gradient-to-t from-white to-transparent" />
+      <div className="h-24 bg-gradient-to-t from-sky-100 to-transparent" />
 
       {/* Bottom CTA Section */}
-      <section className="text-center bg-mirage text-white py-16 px-6 rounded-t-xl shadow-inner">
+      <section className="text-center bg-mirage text-black py-16 px-6 rounded-t-xl shadow-inner">
         <h2 className="text-3xl font-bold">Ready to transform learning with OVCC?</h2>
         <p className="text-lg mt-2 mb-6">
           Join thousands of learners, schools, and parents creating brighter futures.
         </p>
-        <a
+        <Button
           href="/contact"
-          className="inline-block bg-white text-mirage font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
+          className="inline-block text-white font-semibold rounded-full hover:bg-gray-400 transition"
         >
           Contact Us
-        </a>
+        </Button>
       </section>
     </>
   );
