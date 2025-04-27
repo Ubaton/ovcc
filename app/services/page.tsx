@@ -9,6 +9,7 @@ import {
   School,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import BackButton from "../components/BackButton/BackButton";
 
 const services = [
   {
@@ -49,6 +50,7 @@ export default function page() {
       id="services"
       className="bg-mirage text-black py-20 px-6 md:px-20"
     >
+      <BackButton />
       <div className="max-w-7xl mx-auto text-center space-y-16">
         {/* Title */}
         <div className="space-y-6">
