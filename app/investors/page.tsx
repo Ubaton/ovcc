@@ -191,8 +191,8 @@ export default function Deck() {
         </p>
         <div className="flex justify-center pt-4">
           <Link
-            href="/#contact"
-            className="border border-mirage text-mirage px-6 py-3 rounded-full font-semibold hover:bg-mirage hover:text-white transition"
+            href="/contact"
+            className="border border-mirage text-mirage px-6 py-3 rounded-full font-semibold hover:bg-mirage hover:text-gray-700 transition"
           >
             Contact Us
           </Link>
