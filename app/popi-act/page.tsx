@@ -1,8 +1,10 @@
 import React from 'react';
+import BackButton from '../components/BackButton/BackButton';
 
 const page = () => {
   return (
     <section className="bg-white text-gray-800 px-6 py-16 md:px-24">
+      <BackButton />
       <div className="max-w-4xl mx-auto space-y-8">
         <h1 className="text-3xl md:text-4xl font-bold text-mirage">
           POPIA Compliance Statement
