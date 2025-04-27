@@ -3,13 +3,18 @@
 import { Mail, Send, Facebook, Instagram, Twitter } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "../components/ui/button";
+import BackButton from "../components/BackButton/BackButton";
 
 export default function page() {
+
   return (
     <section
       id="contact"
       className="bg-white text-gray-800 py-20 px-6 md:px-20 border-t"
     >
+      {/* Back Button */}
+      <BackButton />
+
       <div className="max-w-5xl mx-auto space-y-16">
         {/* Header */}
         <div className="text-center space-y-4">
@@ -76,7 +81,7 @@ export default function page() {
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-mirage transition"
+              className="hover:text-[#1877F2] transition-colors duration-300"
             >
               <Facebook size={22} />
             </a>
@@ -84,15 +89,15 @@ export default function page() {
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-mirage transition"
+              className="hover:text-[#E1306C] transition-colors duration-300"
             >
               <Instagram size={22} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://x.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-mirage transition"
+              className="hover:text-[#1DA1F2] transition-colors duration-300"
             >
               <Twitter size={22} />
             </a>
