@@ -11,6 +11,9 @@ import {
   FaChartLine,
 } from 'react-icons/fa';
 import { Button } from '../components/ui/button';
+import { useRouter } from "next/navigation";
+import BackButton from '../components/BackButton/BackButton';
+
 
 const steps = [
   {
@@ -46,10 +49,14 @@ const steps = [
 ];
 
 const page = () => {
+    const router = useRouter(); 
+  
   return (
     <>
       {/* Gradient Intro Divider */}
       <div className="h-24 bg-gradient-to-b from-white to-transparent" />
+        {/* Back Button */}
+        <BackButton />
 
       <section className="bg-white text-gray-800 px-6 py-16 md:px-24 relative">
         <div className="max-w-5xl mx-auto space-y-16">
@@ -109,7 +116,7 @@ const page = () => {
         {/* Floating CTA Button */}
         <Button
           href="/register"
-          className="fixed bottom-6 right-6 z-50 bg-white text-black px-5 py-3 rounded-full shadow-xl hover:bg-faded-jade transition duration-300"
+          className="fixed bottom-6 right-6 z-50 bg-white text-black px-5 py-3 rounded-full shadow-xl hover:bg-faded-jade transition duration-300 cursor-pointer"
         >
           Get Started 🚀
         </Button>
@@ -126,7 +133,7 @@ const page = () => {
         </p>
         <Button
           href="/contact"
-          className="inline-block text-white font-semibold rounded-full hover:bg-gray-400 transition"
+          className="inline-block text-white font-semibold rounded-full hover:bg-gray-400 transition cursor-pointer"
         >
           Contact Us
         </Button>
