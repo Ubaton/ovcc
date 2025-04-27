@@ -1,4 +1,5 @@
 import { GraduationCap, Users, FileText, Cog, Lightbulb } from "lucide-react";
+import BackButton from "../components/BackButton/BackButton";
 
 export default function page() {
   return (
@@ -6,6 +7,7 @@ export default function page() {
       id="about"
       className="relative bg-white text-gray-800 py-20 px-6 md:px-20 overflow-hidden"
     >
+      <BackButton />
       {/* Background Accent Blob */}
       <div className="absolute -top-10 -right-10 w-72 h-72 bg-aqua-island/30 rounded-full blur-3xl z-0" />
 
