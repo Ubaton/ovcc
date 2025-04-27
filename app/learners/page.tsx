@@ -142,7 +142,7 @@ export default function page() {
       {/* Call to Action */}
       <div className="text-center py-16">
         <Link href="/register">
-          <Button variant="outline" className="text-black border-black hover:bg-mirage hover:text-white transition">
+          <Button variant="outline" className="text-black border-black hover:bg-mirage hover:text-gray-600 transition cursor-pointer">
             Join OVCC Today
           </Button>
         </Link>
