@@ -11,6 +11,7 @@ import {
   ArrowTrendingUpIcon,
 } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import BackButton from "../components/BackButton/BackButton";
 
 const sections = [
   {
@@ -100,6 +101,7 @@ const sections = [
 ];
 
 export default function Deck() {
+  
   return (
     <section className="bg-white text-gray-800 px-6 py-20 md:px-24 space-y-24">
       {/* Hero */}
@@ -109,6 +111,9 @@ export default function Deck() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
+        {/* Back Button */}
+        <BackButton />
+
         <h1 className="text-4xl md:text-5xl font-bold text-mirage">
           Invest in the Future of Learning
         </h1>
