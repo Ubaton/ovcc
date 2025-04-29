@@ -52,7 +52,7 @@ const page = () => {
             <li>You may opt-out of non-essential communications</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold text-mirage">6. Children's Privacy</h2>
+          <h2 className="text-2xl font-semibold text-mirage">6. Children&apos;s Privacy</h2>
           <p>
             We collect information from learners with consent from schools or guardians. We do not knowingly collect information from children under 13 without parental consent.
           </p>
