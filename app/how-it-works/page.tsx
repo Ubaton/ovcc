@@ -49,7 +49,6 @@ const steps = [
 ];
 
 const page = () => {
-    const router = useRouter(); 
   
   return (
     <>
