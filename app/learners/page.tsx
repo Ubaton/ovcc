@@ -88,7 +88,7 @@ export default function page() {
         <h2 className="text-3xl font-bold">Success Stories</h2>
         <p className="text-lg mt-4">See how students like you are using OVCC to enhance their learning experience:</p>
         <div className="mt-8 space-y-6">
-          <p className="italic">“With OVCC, I can easily track my grades and see where I need to improve. It&apos;s been a game-changer for my motivation!”</p>
+          <p className="italic">&apos;&apos;With OVCC, I can easily track my grades and see where I need to improve. It&apos;s been a game-changer for my motivation!&apos;&apos;</p>
           <p className="italic">“The personalized learning features helped me focus on areas where I was struggling, and I&apos;ve noticed significant improvement!”</p>
         </div>
       </div>
