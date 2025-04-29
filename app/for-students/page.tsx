@@ -71,7 +71,7 @@ export default function page() {
           </h1>
           <p className="text-gray-600 max-w-3xl mx-auto text-lg">
             OVCC is your all-in-one learning companion — designed to help you succeed in school,
-            explore your future, and take action. From test prep to university applications, we've got your back.
+            explore your future, and take action. From test prep to university applications, we&apos;ve got your back.
           </p>
         </motion.div>
 
