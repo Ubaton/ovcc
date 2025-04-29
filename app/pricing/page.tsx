@@ -9,7 +9,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import BackButton from "../components/BackButton/BackButton";
-import { FeatureRow } from "../components/PricingTable/PricingTable";
+import type { FeatureRow } from "../components/PricingTable/PricingTable";
 import PricingTable from "../components/PricingTable/PricingTable";
 
 
