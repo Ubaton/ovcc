@@ -79,7 +79,7 @@ export default function page() {
       <div className="bg-gray-50 text-center py-16 px-6 md:px-20">
         <h2 className="text-3xl font-bold">About OVCC for Learners</h2>
         <p className="text-gray-600 max-w-2xl mx-auto mt-4">
-          OVCC isn&apos;t just for parents — it's also a powerful tool for students. From tracking your assignments to celebrating your achievements, OVCC helps you stay focused, motivated, and on track to reach your academic goals.
+          OVCC isn&apos;t just for parents — it&apos;s also a powerful tool for students. From tracking your assignments to celebrating your achievements, OVCC helps you stay focused, motivated, and on track to reach your academic goals.
         </p>
       </div>
 
