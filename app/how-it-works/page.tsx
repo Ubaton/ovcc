@@ -11,8 +11,9 @@ import {
   FaChartLine,
 } from 'react-icons/fa';
 import { Button } from '../components/ui/button';
-import { useRouter } from "next/navigation";
 import BackButton from '../components/BackButton/BackButton';
+import { useRouter } from 'next/navigation';
+
 
 
 const steps = [
@@ -49,7 +50,12 @@ const steps = [
 ];
 
 const page = () => {
-  
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/contact'); // or any other route
+  };
+
   return (
     <>
       {/* Gradient Intro Divider */}
@@ -111,14 +117,6 @@ const page = () => {
             </p>
           </div>
         </div>
-
-        {/* Floating CTA Button */}
-        <Button
-          href="/register"
-          className="fixed bottom-6 right-6 z-50 bg-white text-black px-5 py-3 rounded-full shadow-xl hover:bg-faded-jade transition duration-300 cursor-pointer"
-        >
-          Get Started 🚀
-        </Button>
       </section>
 
       {/* Gradient Exit Divider */}
@@ -131,10 +129,10 @@ const page = () => {
           Join thousands of learners, schools, and parents creating brighter futures.
         </p>
         <Button
-          href="/contact"
+          onClick={handleClick}
           className="inline-block text-white font-semibold rounded-full hover:bg-gray-400 transition cursor-pointer"
         >
-          Contact Us
+          Get Started 🚀
         </Button>
       </section>
     </>
