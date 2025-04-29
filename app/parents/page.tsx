@@ -91,7 +91,7 @@ export default function page() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto mt-8">
           <div className="space-y-4">
             <h3 className="text-xl font-semibold">Academic Tracking</h3>
-            <p className="text-gray-600">Monitor your child&apos;s grades, attendance, and assignments in real-time, ensuring you're always informed of their progress.</p>
+            <p className="text-gray-600">Monitor your child&apos;s grades, attendance, and assignments in real-time, ensuring you&apos;re always informed of their progress.</p>
           </div>
           <div className="space-y-4">
             <h3 className="text-xl font-semibold">Real-Time Notifications</h3>
@@ -109,8 +109,8 @@ export default function page() {
         <h2 className="text-3xl font-bold">Success Stories</h2>
         <p className="text-lg mt-4">OVCC has helped countless families stay connected and actively involved in their children&apos;s learning journey. Here&apos;s how it&apos;s made a difference:</p>
         <div className="mt-8 space-y-6">
-          <p className="italic">“Since using OVCC, I&apos;ve been able to track my child&apos;s grades and attendance without waiting for reports. It&apos;s incredibly reassuring to have everything at my fingertips!”</p>
-          <p className="italic">“The real-time updates keep me informed about my child&apos;s academic journey, and I can communicate directly with teachers when I have concerns.”</p>
+          <p className="italic">&apos;&apos;Since using OVCC, I&apos;ve been able to track my child&apos;s grades and attendance without waiting for reports. It&apos;s incredibly reassuring to have everything at my fingertips!&apos;&apos;</p>
+          <p className="italic">&apos;&apos;The real-time updates keep me informed about my child&apos;s academic journey, and I can communicate directly with teachers when I have concerns.&apos;&apos;</p>
         </div>
       </div>
 
